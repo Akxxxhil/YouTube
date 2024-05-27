@@ -16,16 +16,16 @@ function Navbar() {
                     <span>YouTube</span>
                 </div>
             </div>
-            <div className='flex text-xl justify-center items-center '>
+            <div className='flex text-xl justify-center items-center gap-2 '>
                 <div>
-                    <input className='px-10 w-[400px] py-1 rounded-l-3xl bg-zinc-950' type="text" placeholder='Search'  />
+                    <input className='w-96  rounded-l-3xl bg-zinc-900 border-none focus:outline-none' type="text" placeholder='Search'  />
                 </div>
-                <div className='rounded-r-3xl px-4 bg-zinc-700 py-2'><CiSearch /></div>
-            </div>
-            <div className='flex gap-5 text-xl justify-center items-center '>
+                <div className=' flex items-center justify-center rounded-r-3xl bg-zinc-700 h-10 w-16'><CiSearch /></div>
                 <div className='bg-zinc-800 p-3 text-xl rounded-full'>
                     <FaMicrophone />
                 </div>
+            </div>
+            <div className='flex gap-5 text-xl justify-center items-center '>
                 <div><RiVideoAddFill /></div>
                 <div><IoNotifications /></div>
                 <div>
