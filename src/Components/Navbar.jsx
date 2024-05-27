@@ -25,7 +25,7 @@ function Navbar() {
                     <FaMicrophone />
                 </div>
             </div>
-            <div className='flex gap-5 text-xl justify-center items-center '>
+            <div className='flex gap-7 text-xl justify-center items-center '>
                 <div><RiVideoAddFill /></div>
                 <div><IoNotifications /></div>
                 <div>
